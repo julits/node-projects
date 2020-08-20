@@ -1,0 +1,18 @@
+{
+    "instance": {
+        "hostName": "localhost",
+        "app": "threats-service",
+        "vipAddress": "threats-service",
+        "instanceId": "localhost:threats-service:8085",
+        "ipAddr": "0.0.0.0",
+        "status": "UP",
+        "port": {
+            "$": 8085,
+            "@enabled": true
+        },
+        "dataCenterInfo": {
+            "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+            "name": "MyOwn"
+        }
+    }
+}

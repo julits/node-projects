@@ -1,0 +1,18 @@
+{
+    "instance": {
+        "hostName": "localhost",
+        "app": "heroes-service",
+        "vipAddress": "heroes-service",
+        "instanceId": "localhost:heroes-service:8084",
+        "ipAddr": "0.0.0.0",
+        "status": "UP",
+        "port": {
+            "$": 8084,
+            "@enabled": true
+        },
+        "dataCenterInfo": {
+            "@class": "com.netflix.appinfo.InstanceInfo$DefaultDataCenterInfo",
+            "name": "MyOwn"
+        }
+    }
+}
